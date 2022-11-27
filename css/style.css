@@ -1,0 +1,51 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+:root {
+  --brand-color: hsl(0, 0%, 100%);
+  --texst-color: hsl(220, 15%, 55%);
+  --dark-color: hsl(218, 44%, 22%);
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.box {
+  background-color: var(--brand-color);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  border-radius: 7%;
+  width: 550px;
+  display: block;
+  margin: 0 auto;
+}
+
+.box-img {
+  border: 20px dotted var(--brand-color);
+  border-radius: 10%;
+  width: 500px;
+}
+.box-title {
+  font-weight: 700;
+  color: var(--dark-color);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.box-text {
+  color: var(--texst-color);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 15%;
+}
