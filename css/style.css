@@ -25,15 +25,16 @@ body {
   font-family: "Outfit", sans-serif;
   text-align: center;
   border-radius: 7%;
-  width: 500px;
+  width: 480px;
   display: block;
   margin: auto;
+  resize: both;
 }
 
 .box-img {
   border: 20px dotted var(--brand-color);
   border-radius: 10%;
-  width: 450px;
+  width: 430px;
 }
 .box-title {
   font-weight: 700;
@@ -44,7 +45,7 @@ body {
 .box-text {
   color: var(--texst-color);
   font-family: "Outfit", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   padding-left: 15%;
   padding-right: 15%;
