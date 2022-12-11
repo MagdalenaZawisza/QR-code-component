@@ -24,7 +24,7 @@ body {
   background-color: var(--brand-color);
   font-family: "Outfit", sans-serif;
   text-align: center;
-  border-radius: 7%;
+  border-radius: 5%;
   width: 480px;
   display: block;
   margin: auto;
@@ -38,16 +38,18 @@ body {
 }
 .box-title {
   font-weight: 700;
+  font-size: 35px;
   color: var(--dark-color);
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 .box-text {
   color: var(--texst-color);
   font-family: "Outfit", sans-serif;
   font-weight: 500;
+  font-size: 22px;
   text-align: center;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 15%;
 }
